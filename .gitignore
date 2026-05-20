@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.DS_Store
+*.pyc
+__pycache__/
+backend/.env
+backend/agent_memory.db
+backend/audit.jsonl
+backend/audit.jsonl.*
+.env
+*.egg-info/
+venv/
+.venv/
