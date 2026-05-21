@@ -23,7 +23,6 @@ AWS has 200+ services with thousands of configuration knobs. Engineers and FinOp
 
 CloudAgent collapses these into a conversational interface. You describe what you want; it grounds its response in official AWS documentation, computes real costs with the AWS Pricing API and Cost Explorer, asks for explicit human approval before mutating anything, and produces full AWS Well-Architected defaults on every new resource. Nothing is created or destroyed without you seeing the exact API call first.
 
-> **Built during apprenticeship as Data & AI Consultant at Capgemini SogetiLabs.** Personal project demonstrating production-grade patterns applied during cloud consulting engagements.
 
 ---
 
