@@ -192,8 +192,8 @@ The agent extracts AWS regions from natural language ("in eu-west-1", "for us-ea
 ### Backend setup
 
 ```bash
-git clone https://github.com/JEMALIACHRAF/cloud-agent-v2.git
-cd cloud-agent-v2/backend
+git clone https://github.com/JEMALIACHRAF/cloud-agent.git
+cd cloud-agent/backend
 
 # Create environment
 conda create -n ca-env python=3.11 -y
@@ -213,7 +213,7 @@ uvicorn main:app --host 127.0.0.1 --port 8000
 ### Frontend setup
 
 ```bash
-cd cloud-agent-v2/electron
+cd cloud-agent/electron
 npm install
 npm run dev
 ```
@@ -438,7 +438,7 @@ CloudAgent is opinionated about safety. Five non-negotiable principles:
 ### Project structure
 
 ```
-cloud-agent-v2/
+cloud-agent/
 ├── backend/                          Python FastAPI + LangGraph
 │   ├── main.py                       FastAPI entry
 │   ├── core/
